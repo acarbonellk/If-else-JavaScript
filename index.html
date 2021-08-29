@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+
+    <p id="para">Cualquier texto acá</p>
+    <button onclick="changeColor('blue');">Azul</button>
+    <button onclick="changeColor('red');">Rojo</button>
+
+    <div>Cuestionario</div>
+
+    <div class="flex-container">
+        <div class="questionContairner">
+            <label>Pregunta1: ¿Tienes Hambre?</label>
+            <div class="answerContainer" id="myCheck">
+                <label for="">Si</label>
+                <input type="checkbox" id="yes" onclick="myFunctionYes()">
+                <label for="">No</label>
+                <input type="checkbox" id="no" onclick="myFunctionNo()">
+
+            </div>
+        </div>
+
+        <div class="questionContairner">
+            <label>Pregunta2: Jugo de que fruta te gusta? </label>
+            <div class="answerContainer">
+                <input type="text">
+
+            </div>
+        </div>
+
+    </div>
+
+    <script src="./main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+* {
+    margin: 1px;
+    font-size: 0.8rem;
+}
+
+body {
+    margin-left: 1%;
+}
+
+.flex-container {
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.questionContairner {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    background-color: cadetblue;
+}
+
+.answerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
